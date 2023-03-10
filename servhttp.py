@@ -28,7 +28,7 @@ def siteFunc():
     "The server does not start! Open port 55555 on your router! \nGoogle how to do it!\n" +
     "Then this application will do everything for you!\nProvided that you download all the necessary libraries!\n" +
     "---------------------------INSTRUCTIONS---------------------------\n")
-    host = input("ENTER THE IPv4 ADDRESS OF YOUR COMPUTER:")
+    host = input("ВВЕДИТЕ IPv4 АДРЕС КОМПЬЮТЕРА:")
     httpd = HTTPServer((host, 55555), Server)
     print("" +
     "  ____  _____ ______     _______ ____    ____ _____  _    ____ _____ _____ ____   \n" +
