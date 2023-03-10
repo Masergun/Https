@@ -40,7 +40,7 @@ def siteFunc():
     "         PYTHON HTTP HOSTING SERVER  >>>  by srgwrtg0342"
     )
 
-    print("Http server on - http://",host,":55555/index.html (url without spaces)")
+    print(f"Http server on - http://{host}:55555/index.html (url without spaces)")
     httpd.serve_forever()
 
 siteFunc()
